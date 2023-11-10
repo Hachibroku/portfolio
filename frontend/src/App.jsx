@@ -4,7 +4,7 @@ import {
   Routes,
   Route
 } from 'react-router-dom';
-import Portfolio from './Portfolio'; // Assuming Portfolio.jsx is in the same directory
+import Portfolio from './Portfolio';
 import './App.css';
 
 function App() {
