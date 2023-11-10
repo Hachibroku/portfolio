@@ -12,7 +12,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Portfolio />} />
-        {/* You can add more routes here as your app grows */}
       </Routes>
     </Router>
   );
