@@ -111,3 +111,58 @@
 .crossed-out {
   text-decoration: line-through;
 }
+
+.hamburger {
+  display: none;
+  /* Add additional styling for the hamburger icon here */
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    width: 30px; /* Width of the hamburger icon */
+    height: 25px; /* Height of the hamburger icon */
+    position: relative;
+  }
+
+  .hamburger span {
+    background-color: #fff; /* Color of the hamburger lines */
+    height: 3px; /* Height of each line */
+    width: 100%; /* Width of each line */
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -1.5px; /* Centers the line */
+  }
+
+  .hamburger span:nth-child(1) {
+    top: 0;
+  }
+
+  .hamburger span:nth-child(2) {
+    top: 50%;
+  }
+
+  .hamburger span:nth-child(3) {
+    bottom: 0;
+  }
+
+  #nav-list {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 2s ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #nav-list.open {
+    max-height: 500px;
+    }
+
+  .project {
+    max-width: 100%; /* Each project takes full width */
+    margin-bottom: 20px; /* Add space between projects */
+  }
+}

@@ -1,16 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
 import './Portfolio.css';
 
+
 const Portfolio = () => {
+  const [navOpen, setNavOpen] = useState(false);
+
+  const toggleNav = () => {
+    setNavOpen(!navOpen);
+  };
+
   return (
     <div className="portfolio">
-      <header className="portfolio-header">
+      <header className={`portfolio-header ${navOpen ? "nav-open" : ""}`}>
         <nav>
-          <ul>
+          <div className="hamburger" onClick={toggleNav}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul id="nav-list" className={navOpen ? "open" : ""}>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/">Software Portfolio - coming soon!</Link></li>
+            <li>Software Portfolio - coming soon!</li>
             <li><a href="https://github.com/Hachibroku" target="_blank" rel="noopener noreferrer">GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/murphey-osmundson/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
             <li>Blog - coming soon!</li>
@@ -27,7 +39,7 @@ const Portfolio = () => {
           language analyst. Through that experience, I honed a unique analytical mindset, was taught to be a fearless leader,
           learned the value of discipline and the power of friendship. Currently pursuing a Computer Science degree as
           well as uitlizing the vast resources on the internet to further deepen my technical expertise. *opens front door*
-          Hello MTV welcome to my <span class="crossed-out">crib</span> portfolio.
+          Hello MTV welcome to my <span className="crossed-out">crib</span> portfolio.
         </p>
 
       </section>
