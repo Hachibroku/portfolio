@@ -16,7 +16,7 @@
 
 a {
   font-weight: 500;
-  color: #008080;
+  color: #FFFFFF;
   text-decoration: inherit;
 }
 a:hover {
@@ -26,6 +26,10 @@ a:hover {
 /* temporary styling for not links yet */
 li {
   font-weight: 500;
-  color: #008080;
+  color: #FFFFFF;
   text-decoration: inherit;
+}
+
+li:hover {
+  color: #4C9999;
 }
