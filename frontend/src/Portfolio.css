@@ -114,26 +114,25 @@
 
 .hamburger {
   display: none;
-  /* Add additional styling for the hamburger icon here */
 }
 
 @media screen and (max-width: 768px) {
   .hamburger {
     display: block;
     cursor: pointer;
-    width: 30px; /* Width of the hamburger icon */
-    height: 25px; /* Height of the hamburger icon */
+    width: 30px;
+    height: 25px;
     position: relative;
   }
 
   .hamburger span {
-    background-color: #fff; /* Color of the hamburger lines */
-    height: 3px; /* Height of each line */
-    width: 100%; /* Width of each line */
+    background-color: #ffffff;
+    height: 3px;
+    width: 100%;
     position: absolute;
     left: 0;
     right: 0;
-    margin-top: -1.5px; /* Centers the line */
+    margin-top: -1.5px;
   }
 
   .hamburger span:nth-child(1) {
@@ -162,7 +161,7 @@
     }
 
   .project {
-    max-width: 100%; /* Each project takes full width */
-    margin-bottom: 20px; /* Add space between projects */
+    max-width: 100%;
+    margin-bottom: 20px;
   }
 }
