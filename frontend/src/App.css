@@ -14,12 +14,12 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
+nav a {
   font-weight: 500;
   color: #FFFFFF;
   text-decoration: inherit;
 }
-a:hover {
+nav a:hover {
   color: #4C9999;
 }
 

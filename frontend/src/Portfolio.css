@@ -99,6 +99,13 @@
 .project a {
   margin-top: auto;
   text-align: center;
+  font-weight: 500;
+  color: #242424;
+  text-decoration: inherit;
+}
+
+.project a:hover {
+  color: #4C9999;
 }
 
 .crossed-out {
