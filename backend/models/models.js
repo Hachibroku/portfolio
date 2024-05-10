@@ -1,6 +1,6 @@
-import mongoose from "mongoose"
+import mongoose from "mongoose";
 
-const bookSchema = mongoose.Schema(
+const blogSchema = mongoose.Schema(
     {
         title: {
             type: String,
@@ -10,14 +10,57 @@ const bookSchema = mongoose.Schema(
             type: String,
             required: true,
         },
-        publishYear: {
-            type: Number,
+        body: {
+            type: String,
             required: true,
         },
     },
     {
         timestamps: true,
     }
-);
+)
 
-export const Book = mongoose.model('Book', bookSchema)
+const gallerySchema = mongoose.Schema(
+    {
+        title: {
+            type: String,
+            required: true,
+        },
+        url: {
+            type: String,
+            required: true,
+        },
+        caption: {
+            type: String,
+            required: true,
+        },
+    },
+    {
+        timestamps: true,
+    }
+)
+
+const projectSchema = mongoose.Schema(
+    {
+        title: {
+            type: String,
+            required: true,
+        },
+        githubLink: {
+            type: String,
+            required: true,
+        },
+        images: {
+            type: [String],
+            required: true,
+        },
+        blurb: {
+            type: String,
+            required: true,
+        }
+    }
+)
+
+export const BlogPost = mongoose.model('BlogPost', blogSchema)
+export const Photo = mongoose.model('Photo', gallerySchema)
+export const Project = mongoose.model('Project', projectSchema)
