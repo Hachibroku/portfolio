@@ -1,5 +1,5 @@
 import express from 'express';
-import { Book } from '../models/models.js';
+import { Book } from '../models/exampleModels.js';
 
 const router = express.Router()
 
