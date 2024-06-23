@@ -34,12 +34,7 @@ const Portfolio = () => {
         <img src="murphey2.jpeg" alt="Picture of Murphey" />
         <h1>Murphey Osmundson</h1>
         <p>
-          Software engineering extraordinaire, creative mind, intuitive problem-solver, world traveller and generally
-          likeable, well rounded dude. I'm a veteran of the US Navy, devoting six years as a Persian-Farsi cryptologic
-          language analyst. Through that experience, I honed a unique analytical mindset, was taught to be a fearless leader,
-          learned the value of discipline and the power of friendship. Currently pursuing a Computer Science degree as
-          well as uitlizing the vast resources on the internet to further deepen my technical expertise. *opens front door*
-          Hello MTV welcome to my <span className="crossed-out">crib</span> portfolio.
+Software engineering extraordinaire, creative mind, intuitive problem-solver, world traveler, and generally likable, well-rounded individual. I am a veteran of the US Navy, having devoted six years as a Persian-Farsi cryptologic language analyst. Through that experience, I honed a unique analytical mindset, developed fearless leadership skills, and learned the value of discipline and the power of friendship. I am currently pursuing a Computer Science degree and utilizing the vast resources available on the internet to further deepen my technical expertise.
         </p>
 
       </section>
