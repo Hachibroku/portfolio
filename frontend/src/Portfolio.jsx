@@ -1,40 +1,15 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import Footer from './Footer';
 import './Portfolio.css';
 
 
 const Portfolio = () => {
-  const [navOpen, setNavOpen] = useState(false);
-
-  const toggleNav = () => {
-    setNavOpen(!navOpen);
-  };
 
   return (
     <div className="portfolio">
-      <header className={`portfolio-header ${navOpen ? "nav-open" : ""}`}>
-        <nav>
-          <div className="hamburger" onClick={toggleNav}>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <ul id="nav-list" className={navOpen ? "open" : ""}>
-            <li><Link to="/">Home</Link></li>
-            <li>Software Portfolio - coming soon!</li>
-            <li><a href="https://github.com/Hachibroku" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/murphey-osmundson/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-            <li>Blog - coming soon!</li>
-            <li>Photography - coming soon!</li>
-          </ul>
-        </nav>
-      </header>
       <section className="hero">
         <img src="murphey2.jpeg" alt="Picture of Murphey" />
         <h1>Murphey Osmundson</h1>
         <p>
-Software engineering extraordinaire, creative mind, intuitive problem-solver, world traveler, and generally likable, well-rounded individual. I am a veteran of the US Navy, having devoted six years as a Persian-Farsi cryptologic language analyst. Through that experience, I honed a unique analytical mindset, developed fearless leadership skills, and learned the value of discipline and the power of friendship. I am currently pursuing a Computer Science degree and utilizing the vast resources available on the internet to further deepen my technical expertise.
+          Down-to-Earth Software Engineer, creative mind, intuitive problem-solver, aspiring world traveler and hobbyist philosopher. I am a veteran of the US Navy, having devoted six years of my life as a Persian-Farsi cryptologic linguist. Through that experience, I honed a unique analytical mindset, developed strong foundational leadership skills, learned the value of discipline, and the power of friendship. I am currently pursuing a Computer Science degree, while also utilizing the vast resources available on the internet to further enhance my technical knowledge.
         </p>
 
       </section>
@@ -45,7 +20,7 @@ Software engineering extraordinaire, creative mind, intuitive problem-solver, wo
 
           <div className="project">
             <h3>This Old Car</h3>
-            <p>Not your average task tracking app, This Old Car has been designed by a home mechanic, for home mechanics.
+            <p>This Old Car has been designed as a spin on the classic to-do app, optimized for home mechanics.
               Utilizing Django's REST framework to provide a robust and reliable backend, React for a clean and intuitive
               user experience, and PostgreSQL for keeping all of those projects straight.</p>
             <img src="thisoldcarhome.png" alt="Project 1 screenshot" />
@@ -65,7 +40,6 @@ Software engineering extraordinaire, creative mind, intuitive problem-solver, wo
 
         </div>
       </section>
-      <Footer />
     </div>
   );
 };

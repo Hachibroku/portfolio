@@ -1,0 +1,93 @@
+/* General Blog Styles */
+.blog-container {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+    padding: 20px;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px; /* Add spacing at the top */
+  }
+  
+  .blog-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .blog-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+  }
+  
+  .blog-card {
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; /* Center the cards */
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .blog-card h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5em;
+    color: #ffffff;
+  }
+  
+  .blog-card h3 {
+    font-size: 1rem;
+    color: #aaa;
+    margin-bottom: 1em;
+  }
+  
+  .blog-card p {
+    font-size: 1.125rem;
+    margin-bottom: 1em;
+    color: #ffffff;
+  }
+  
+  .blog-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the list items */
+    width: 100%;
+  }
+  
+  .blog-list li {
+    margin-bottom: 20px;
+    width: 100%; /* Ensure the list item takes up full width */
+    display: flex;
+    justify-content: center; /* Center the card inside the list item */
+  }
+  
+  .blog-list li a {
+    text-decoration: none;
+    width: 100%; /* Ensure the link takes up full width */
+  }
+  
+  .blog-list li a:hover .blog-card {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive styling */
+  @media screen and (min-width: 768px) {
+    .blog-card {
+      max-width: 75%; /* Wider cards on medium screens */
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .blog-card {
+      max-width: 75%; /* Even wider cards on large screens */
+    }
+  }
+  

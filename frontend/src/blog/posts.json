@@ -1,0 +1,11 @@
+{
+  "blogPosts": [
+  {
+    "id": 1,
+    "title": "My First Blog Post",
+    "date": "2024-06-24",
+    "content": "Well, here it is. This has been a long time coming; I had the 'Blog - Coming Soon' link in the header in anticipation of building this site out more. There's still no backend or database setup for it; instead, I just set it up to import a JSON file directly. Maybe a little hacky, but I like the simplicity and it was a good learning experience. There are still features I'd like to add to this site that will require a backend, namely a photography gallery, but that one is going to stay on the backburner for now as I have other projects I want to devote my time to, and probably some more smaller tweaks for this blog. The grey-on-grey dark mode colorway is starting to grow old to me. I'm thinking a nice set of warm colors would change things up nicely, and keep the old colors to integrate into a dark mode toggle. I never have a shortage of ideas, that's for sure. Anyhow, this is a good amount of work done on this for today. Now I can write new blog posts, and it's as simple as writing a little JSON, then pushing to GitHub and letting Netlify's CI/CD take care of the rest. Very Occam's Razor, I think."
+  }
+ ]
+}
+  
