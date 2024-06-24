@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import data from './blog/posts.json';
+import './Blog.css';
 
 const BlogPost = () => {
     let { id } = useParams();
@@ -17,10 +18,12 @@ const BlogPost = () => {
     if (!content) return <div>Loading...</div>;
 
     return (
-        <div>
-            <h1>{content.title}</h1>
-            <h3>{content.date}</h3>
-            <p>{content.content}</p>
+        <div className="blog-container">
+            <div className="blog-card">
+                <h1>{content.title}</h1>
+                <h3>{content.date}</h3>
+                <p>{content.content}</p>
+            </div>
         </div>
     );
 }
