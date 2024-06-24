@@ -1,0 +1,23 @@
+{
+  "blogPosts": [
+  {
+    "id": 1,
+    "title": "My First Blog Post",
+    "date": "2024-06-22",
+    "content": "This is the content of my first blog post. Welcome to my blog!"
+  },
+  {
+    "id": 2,
+    "title": "My Second Blog Post",
+    "date": "2024-06-22",
+    "content": "This is the content of my second blog post. Welcome to my blog!"
+  },
+  {
+    "id": 3,
+    "title": "My Third Blog Post",
+    "date": "2024-06-22",
+    "content": "This is the content of my third blog post. Welcome to my blog!"
+  }
+ ]
+}
+  
