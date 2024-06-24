@@ -20,7 +20,7 @@ Software engineering extraordinaire, creative mind, intuitive problem-solver, wo
 
           <div className="project">
             <h3>This Old Car</h3>
-            <p>Not your average task tracking app, This Old Car has been designed by a home mechanic, for home mechanics.
+            <p>This Old Car has been designed as a spin on the classic to-do app, optimized for home mechanics.
               Utilizing Django's REST framework to provide a robust and reliable backend, React for a clean and intuitive
               user experience, and PostgreSQL for keeping all of those projects straight.</p>
             <img src="thisoldcarhome.png" alt="Project 1 screenshot" />
