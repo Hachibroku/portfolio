@@ -9,7 +9,7 @@ const Portfolio = () => {
         <img src="murphey2.jpeg" alt="Picture of Murphey" />
         <h1>Murphey Osmundson</h1>
         <p>
-Software engineering extraordinaire, creative mind, intuitive problem-solver, world traveler, and generally likable, well-rounded individual. I am a veteran of the US Navy, having devoted six years as a Persian-Farsi cryptologic language analyst. Through that experience, I honed a unique analytical mindset, developed fearless leadership skills, and learned the value of discipline and the power of friendship. I am currently pursuing a Computer Science degree and utilizing the vast resources available on the internet to further deepen my technical expertise.
+          Down-to-Earth Software Engineer, creative mind, intuitive problem-solver, aspiring world traveler and hobbyist philosopher. I am a veteran of the US Navy, having devoted six years of my life as a Persian-Farsi cryptologic linguist. Through that experience, I honed a unique analytical mindset, developed strong foundational leadership skills, learned the value of discipline, and the power of friendship. I am currently pursuing a Computer Science degree, while also utilizing the vast resources available on the internet to further enhance my technical knowledge.
         </p>
 
       </section>
